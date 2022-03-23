@@ -2450,7 +2450,7 @@ td{ text-align: center; height: 30px; padding: 10px; font-size: 15px; border: 1p
 .xans-record-{ font-size: 15px;}
 #tablem4 a{ color: #fff; font-weight: bold;}
 .qnas {text-align: center; padding-top: 80px;}
-.box{ margin: 0 auto; width: 1320px; height:880px ;  text-align: center;  
+.box{ margin: 0 auto; max-width: 1320px; height:880px ;  text-align: center;  
   border: 3px solid #1e3621; box-sizing: border-box;}
 .box p{font-size: 17px; font-weight: bold;text-align: center; padding: 30px; }
 .box h2{ border-bottom: 1px solid rgb(71, 70, 70); padding: 30px 0; line-height: 36px; font-size: 30px;}
@@ -2468,7 +2468,7 @@ td{ text-align: center; height: 30px; padding: 10px; font-size: 15px; border: 1p
 }
 
 
-#tab_content{  margin: 0 auto; width: 1320px; padding: 100px; height: 1900px;}
+#tab_content{  margin: 0 auto; max-width: 1320px; padding: 100px; height: 1900px;}
 .eventbox img {WIDTH: 100%;}
 .eventbox{float: left; width: 32%; }
 .eventbox p{ padding-top: 30px;}
@@ -2499,6 +2499,9 @@ ul,
       float: left;
       width:33.3%;
       font-size: 18px;
+    }
+    .eventtabs{
+      overflow: hidden;
     }
     .eventtabs .tabs li a{display: block;  font-size: 18px;  background-color:#f3edc6; color:#4c624f;   padding: 10px 0; font-weight: bold;}
 
