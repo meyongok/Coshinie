@@ -1933,30 +1933,32 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .table-shopping-cart .column-1 {
-  width: 133px;
-  padding-left: 50px;
+ width:10%;
+  padding:30px 0; text-align:center;
 }
 
 .table-shopping-cart .column-2 {
-  width: 220px;
-  font-size: 15px;
+  width: 30%;
+  font-size: 15px;text-align: center;
 }
 
 .table-shopping-cart .column-3 {
-  width: 120px;
-  font-size: 16px;
+  width: 20%;
+  font-size: 16px; text-align: center;
 }
 
 .table-shopping-cart .column-4 {
-  width: 145px;
-  text-align: right;
+  width: 20%;
+  text-align:center;
 }
 
 .table-shopping-cart .column-5 {
-  width: 172px;
-  padding-right: 50px;
-  text-align: right;
+  width: 20%;
+  text-align: center;
   font-size: 16px;
+
+
+
 }
 
 .table-shopping-cart .table_row {
@@ -1985,6 +1987,7 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Regular;
   color: black;
   line-height: 1.6;
+  text-align: center;
 }
 
 
@@ -3166,7 +3169,7 @@ h1{margin-top:100px;
 .how-itemcart1 {
   width: 60px;
   position: relative;
-  margin-right: 20px;
+  margin: auto;
   cursor: pointer;
 }
 
